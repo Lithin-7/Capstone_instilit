@@ -1,0 +1,65 @@
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🔐 Environment files
+.env
+.venv/
+env/
+venv/
+
+# 🧪 Model tracking
+mlruns/
+
+# 📊 Plots and figures
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.gif
+*.pdf
+
+# 🔧 Config or temp files
+settings.json
+*.log
+*.tmp
+*.bak
+
+# 🌐 Flask app cache (optional)
+auto_eda_project/flask/__pycache__/
+
+# ⚙️ Airflow local files (optional)
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/logs/
+
+# 🧠 AutoEDA 
+auto_eda_project/eda_output/
+
+# 👩‍💻 IDE/project metadata (optional)
+.vscode/
+.idea/
+
+# 🧪 Test/misc
+__init__.py
+
+# Ignore everything in eda_output/
+auto_eda_project/eda_output/*
+
+# But keep the autoeda_report.html
+!auto_eda_project/eda_output/autoeda_report.html
+
+
+# 📊 Plots and figures (ignore global .png, but allow EDA outputs)
+*.png
+!auto_eda_project/eda_output/univariate/*.png
+!auto_eda_project/eda_output/bivariate/*.png
+!auto_eda_project/eda_output/univariate/
+!auto_eda_project/eda_output/bivariate/
+
+# 📄 HTML drift reports (only allow drift_reports/*.html)
+*.html
+!auto_eda_project/drift_reports/*.html
+!auto_eda_project/drift_reports/

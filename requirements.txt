@@ -1,0 +1,35 @@
+
+# Python Version
+# python_version >=3.8, <3.9
+
+# db connector
+sqlalchemy==2.0.41
+psycopg2-binary>=2.9
+
+# EDA Tools
+ydata-profiling>=4.1.2
+seaborn>=0.11.2
+matplotlib>=3.3.4
+
+# Preprocessing & Modeling
+scikit-learn>=1.0.2
+pandas>=1.3.0
+numpy>=1.20.0
+
+#Model Selection & Evaluation 
+xgboost>=1.5.0
+lightgbm>=3.3.2
+
+# Drift & Quality Monitoring
+evidently>=0.3.2
+
+# MLflow Tracking
+mlflow>=2.4.1
+
+# API with Flask
+flask>=2.0.3
+
+# File Format Support
+openpyxl>=3.0.10     # Excel
+pyarrow>=10.0.1      # Parquet
+xlrd>=2.0.1          # .xls (optional)
