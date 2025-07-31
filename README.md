@@ -1,4 +1,3 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 # Capstone Salary Prediction – End-to-End ML Pipeline
 
 This repository provides a complete machine learning pipeline to predict standardized employee salaries (in USD) across different job roles, countries, experience levels, and related attributes. The solution features robust data cleaning, exploratory data analysis (EDA), model building with MLflow experiment tracking, data drift monitoring using Evidently AI, and a production-ready Flask web API for real-time and batch salary predictions.
