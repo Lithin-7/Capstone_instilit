@@ -40,7 +40,7 @@ This project was built using the following tools and technologies:
 - **EDA & Profiling:** ydata-profiling
 - **Database (Optional):** PostgreSQL
 - **Deployment:** Flask API for real-time & batch predictions
-- 
+ 
 ## 🖼️ Screenshots
 
 ### 1. Flask Web App Interface
