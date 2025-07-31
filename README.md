@@ -35,13 +35,12 @@ This repository provides a complete machine learning pipeline to predict standar
 - Stores hyperparameters, artifacts, and source code versions.
 
 ![MLflow Experiment Screenshot](Screenshots/mlflow_exp.png)
-![MLflow Model Screenshot](Screenshots/mlflow_model.png)
 
 ### 3. MLflow Model Registry
 - Model promotion lifecycle: `None → Staging → Production`.
 - Fully versioned with lineage from source runs.
 
-![MLflow Model Registry Screenshot](auto_eda_project/Screenshots/mlflow_model.png)
+![MLflow Model Registry Screenshot](Screenshots/mlflow_model.png)
 
 ### 4. EDA Report
 - Automatically generated EDA report using `ydata-profiling`.
