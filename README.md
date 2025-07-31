@@ -133,8 +133,9 @@ Capstone_instilit/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/Lithin-7/Capstone_instilit.git
-cd Capstone_instilit
+git clone https://github.com/Lithin-7/end2end-salary-ml
+.git
+cd end2end-salary-ml
 
 ### 2. Create & Activate Virtual Environment
 
