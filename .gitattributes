@@ -1,0 +1,9 @@
+# Ignore large HTML files for language stats
+*.html linguist-detectable=false
+EDA INSIGHTS/EDA REPORT 1.pdf linguist-detectable=false
+
+# Force Python detection for all .py files
+*.py linguist-language=Python
+
+# Treat everything inside auto_eda_project as Python
+auto_eda_project/** linguist-language=Python
