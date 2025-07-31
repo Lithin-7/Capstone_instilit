@@ -76,27 +76,7 @@ This repository provides a complete machine learning pipeline to predict standar
 
 ---
 
-## 🗂️ Project Structure
-
-Capstone_instilit/
-├── auto_eda_project/
-│   ├── Data/
-│   ├── Screenshots/
-│   │   ├── Flask.png
-│   │   ├── mlflow_exp.png
-│   │   ├── mlflow_model.png
-│   ├── db/
-│   ├── data_ingestion/
-│   ├── preprocessing/
-│   ├── model/
-│   ├── mlflow/
-│   ├── evidently_ai/
-│   └── save_model/
-├── EDA INSIGHTS/
-│   └── EDA REPORT 1.pdf
-├── main.py
-├── requirements.txt
-└── README.md
+<pre lang="markdown"><code> ## 🗂️ Project Structure ``` Capstone_instilit/ │ ├── auto_eda_project/ │ │ │ ├── Data/ │ ├── Screenshots/ │ │ ├── Flask.png │ │ ├── mlflow_exp.png │ │ └── mlflow_model.png │ ├── db/ │ ├── data_ingestion/ │ ├── preprocessing/ │ ├── model/ │ ├── mlflow/ │ ├── evidently_ai/ │ └── save_model/ │ ├── EDA INSIGHTS/ │ └── EDA REPORT 1.pdf │ ├── main.py ├── requirements.txt └── README.md ``` </code></pre>
 
 
 ---
