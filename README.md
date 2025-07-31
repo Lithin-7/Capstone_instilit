@@ -27,14 +27,15 @@ This repository provides a complete machine learning pipeline to predict standar
 - Real-time standardized salary predictions in USD.
 - Intuitive and interactive user interface.
 
-![Flask Web App Screenshot](auto_eda_project/Screenshots/Flask.png)
+![Flask Web App Screenshot](Screenshots/Flask.png)
 
 ### 2. MLflow Experiment Tracking
 - Tracks all training experiments and versions.
 - Visualizes metrics such as RMSE, MAE, and R².
 - Stores hyperparameters, artifacts, and source code versions.
 
-![MLflow Experiment Screenshot](auto_eda_project/Screenshots/mlflow_exp.png)
+![MLflow Experiment Screenshot](Screenshots/mlflow_exp.png)
+![MLflow Model Screenshot](Screenshots/mlflow_model.png)
 
 ### 3. MLflow Model Registry
 - Model promotion lifecycle: `None → Staging → Production`.
