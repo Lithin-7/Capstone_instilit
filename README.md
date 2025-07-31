@@ -20,6 +20,28 @@ This repository provides a complete machine learning pipeline to predict standar
 
 ---
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![Flask](https://img.shields.io/badge/Flask-2.3-black?logo=flask)
+![MLflow](https://img.shields.io/badge/MLflow-Tracking-blue?logo=mlflow)
+![Evidently](https://img.shields.io/badge/Evidently-Drift-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+---
+
+## 🧰 Tech Stack
+
+This project was built using the following tools and technologies:
+
+- **Programming Language:** Python
+- **Web Framework:** Flask
+- **Data Handling:** Pandas, NumPy
+- **Modeling & ML:** scikit-learn, XGBoost
+- **MLOps & Tracking:** MLflow
+- **Drift Monitoring:** Evidently AI
+- **EDA & Profiling:** ydata-profiling
+- **Database (Optional):** PostgreSQL
+- **Deployment:** Flask API for real-time & batch predictions
+- 
 ## 🖼️ Screenshots
 
 ### 1. Flask Web App Interface
