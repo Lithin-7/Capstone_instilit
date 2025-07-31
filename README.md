@@ -186,4 +186,6 @@ Feel free to fork this repo and open pull requests. All contributions are welcom
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
